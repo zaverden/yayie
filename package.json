@@ -1,0 +1,13 @@
+{
+  "name": "yayie",
+  "version": "0.0.1",
+  "main": "yayie.js",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "3.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch"
+  }
+}
