@@ -4,10 +4,13 @@
   "main": "yayie.js",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "12.7.2",
+    "nodemon": "1.19.1",
     "typescript": "3.5.3"
   },
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "example:basic": "nodemon example/basic.js"
   }
 }
